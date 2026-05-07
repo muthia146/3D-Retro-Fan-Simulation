@@ -4,7 +4,7 @@ from scene import set_material, draw_cube
 
 def draw_fan(fan_speed_level, blade_angle, head_pan_angle):
     glPushMatrix()
-    # MANTRA SIHIR: Turunkan seluruh kipas supaya pantatnya nempel di Y=-2.79
+    
     glTranslatef(0.0, -1.99, 0.0) 
     
     quadric = gluNewQuadric()
@@ -103,4 +103,4 @@ def draw_fan(fan_speed_level, blade_angle, head_pan_angle):
         glPopMatrix()
     glPopMatrix()
     
-    glPopMatrix() # Tutup MANTRA SIHIR
+    glPopMatrix() 
