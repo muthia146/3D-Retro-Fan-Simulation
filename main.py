@@ -4,7 +4,7 @@ from pygame.locals import *
 from OpenGL.GL import *
 from OpenGL.GLU import *
 
-# Import fungsi dari file modular kita
+
 from scene import init_environment, draw_room, draw_table, draw_socket_and_cable, draw_flying_papers
 from fan import draw_fan
 

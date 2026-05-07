@@ -48,7 +48,7 @@ def draw_cube():
     glEnd()
 
 def draw_room():
-    # LANTAI (Y disesuaikan ke -4.91 biar permukaan pas sama kertasmu -4.86)
+    # LANTAI 
     glPushMatrix()
     set_material("matte", (0.4, 0.4, 0.42, 1.0)) 
     glTranslatef(0, -4.91, 7.0) 
@@ -126,7 +126,7 @@ def draw_room():
     glPushMatrix(); glTranslatef(0.15, 0.0, 2.0); glScalef(0.2, 8.0, 0.2); draw_cube(); glPopMatrix()
     glPushMatrix(); glTranslatef(0.15, 0.0, 0.0); glScalef(0.2, 0.2, 12.0); draw_cube(); glPopMatrix()
 
-    # Ambang Jendela (Sill) - Menonjol ke dalam ruangan
+    # Ambang Jendela (Sill) 
     glPushMatrix()
     glTranslatef(0.4, -4.3, 0.0) 
     glScalef(1.2, 0.2, 13.0) 
@@ -148,7 +148,7 @@ def draw_room():
     glPopMatrix()
 
 def draw_table():
-    # Papan Meja (Y disesuaikan ke -2.81 biar permukaan pas sama kertasmu -2.76)
+    # Papan Meja 
     glPushMatrix()
     set_material("matte", (0.35, 0.2, 0.1, 1.0))
     glTranslatef(0, -2.81, 0)

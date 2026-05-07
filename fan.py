@@ -4,7 +4,7 @@ from scene import set_material, draw_cube
 
 def draw_fan(fan_speed_level, blade_angle, head_pan_angle):
     glPushMatrix()
-    
+
     glTranslatef(0.0, -1.99, 0.0) 
     
     quadric = gluNewQuadric()
@@ -44,7 +44,7 @@ def draw_fan(fan_speed_level, blade_angle, head_pan_angle):
     set_material("chrome", (0.5, 0.5, 0.5, 1.0))
     glTranslatef(0, -0.6, 0)
     glRotatef(-90, 1, 0, 0)
-    # Tiang dibikin tinggi (2.5) biar elegan
+    # Tiang kipas
     gluCylinder(quadric, 0.1, 0.1, 2.5, 16, 1)
     glPopMatrix()
     
