@@ -13,6 +13,16 @@ Proyek Visualisasi 3D Kipas Angin Meja dengan fitur animasi osilasi dan kontrol 
 - Pygame (Window Management)
 - PyOpenGL (Graphic Rendering)
 
+## Kontrol Keyboard & Mouse
+| Input | Fungsi |
+| :--- | :--- |
+| **Angka 1, 2, 3** | Menyalakan kipas & pilih tingkat kecepatan |
+| **Angka 0** | Power Off (Mematikan kipas) |
+| **Tombol O** | Toggle Osilasi (Menyalakan/Mematikan gerak geleng) |
+| **Klik Kiri + Drag** | Rotasi Kamera (Orbit) |
+| **Scroll Mouse** | Zoom In / Out |
+| **WASD / Panah** | Navigasi Kamera Manual |
+
 ## Cara Instalasi & Menjalankan
 1. Clone repositori ini atau download source code.
 2. Instal dependensi:
